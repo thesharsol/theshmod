@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>welcome to the js model application</title>
+    <script id="script" src="backbone/config/config.js"></script>
+    <!-- <script id="script" src="backbone/loader.js"></script> -->
+  </head>
+  <body style="background-color: #dfdfdf;height: 100vh;">
+    <canvas id="drawingSpace" height="" width="600px" style="border: 1px solid silver"></canvas>
+    <button onclick="testEllipse();">run test ellipse</button>
+    <button onclick="testClass();">run test Class</button>
+    <button onclick="testActor();">run test actor</button>
+    <button onclick="enableLinkBuilder();">enable <b>linkBuilder</b></button>
+    <button onclick="dispatch()" id="test">test</button>
+    <script id="script" src="test.js" type="module"></script>
+
+    <script>
+      let drawingSpace = document.getElementById("drawingSpace");
+      drawingSpace.setAttribute("height",window.innerHeight);
+      drawingSpace.setAttribute("width",window.innerWidth);
+      /* const event = new Event("test",{detail:document.getElementById("test")});
+      function dispatch(){
+        document.getElementById("test").dispatchEvent(event);
+      }
+
+      document.getElementById("test").addEventListener("test",function(e){
+        console.log(e);
+      }) */
+      
+    </script>
+  </body>
+</html>

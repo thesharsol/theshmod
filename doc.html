@@ -1,0 +1,675 @@
+<div id="output">
+    <h1>jsm 1.0/index.html</h1>
+    <h1>jsm 1.0/test.js</h1>
+    <h1>jsm 1.0/backbone/loader.js</h1><span>Jsm
+    </span><br>
+    <h4>Loader
+        :</h4><span> this class will allow you to include js file in your html file
+    </span><br><span>BEBE EPEE Ivan Sampi
+    </span><br><span>1.0
+
+    </span><br>
+    <h4>paths
+        :</h4><span> return the paths of the backbone
+    </span><br><span>String
+    </span><br>
+    <h4>fileToLoad
+        :</h4><span> return an object tha contain all the files to load
+    </span><br><span>object
+    </span><br>
+    <h4>loadEnv
+        :</h4><span>load the environment
+    </span><br>
+    <h4>map_links
+        :</h4>
+    <div class="editor"><span class="yellow">map_links
+        </span><span class="pink">(</span>tab <span class="orange">object<span>,link <span class="orange">string
+                    <span><span class="pink">)</span></span></span></span></span></div><span>map the tab to build links
+        and load ressources
+    </span><br>
+    <h4>loadLang
+        :</h4><span>Load language file(s) accordind with the configuration file
+    </span><br>
+    <h4>url
+        :</h4>
+    <div class="editor"><span class="yellow">url
+        </span><span class="pink">(</span>link <span class="orange">String
+            <span><span class="pink">)</span></span></span></div><span>return a link of and ressource
+    </span><br><span>String
+    </span><br>
+    <h4>load
+        :</h4>
+    <div class="editor"><span class="yellow">load
+        </span><span class="pink">(</span>path <span class="orange">String
+            <span><span class="pink">)</span></span></span></div><span>add the path append the body
+    </span><br>
+    <h1>jsm 1.0/backbone/structures/objects/uml/actor.js</h1>
+    <h4>JsmActor
+        :</h4><span>1.0
+    </span><br><span>Object
+    </span><br><span>BEBE EPEE Ivan Sampi
+    </span><br><span>implements the actor logic of the diagram of the same name in the uml method
+
+    </span><br>
+    <h1>jsm 1.0/backbone/structures/objects/uml/class.js</h1>
+    <h4>jsmClass
+        :</h4><span>1.0
+    </span><br><span>Object
+    </span><br><span>BEBE EPEE Ivan Sampi
+    </span><br><span>implements the class logic of the diagram of the same name in the uml method
+
+    </span><br>
+    <h4>attributes
+        :</h4><span> return the list of all attributes
+    </span><br><span>object
+    </span><br>
+    <h4>methods
+        :</h4><span>return the list of class methods
+    </span><br><span>object
+    </span><br>
+    <h4>getAttribute
+        :</h4>
+    <div class="editor"><span class="yellow">getAttribute
+        </span><span class="pink">(</span>attributeName
+        <span class="orange"><span><span class="pink">)</span></span></span>
+    </div><span> return an attribute using the given attrribute name
+    </span><br>
+    <h4>getMethod
+        :</h4>
+    <div class="editor"><span class="yellow">getMethod
+        </span><span class="pink">(</span>methodName
+        <span class="orange"><span><span class="pink">)</span></span></span>
+    </div><span> return a method using the given method name
+    </span><br>
+    <h4>attribute
+        :</h4>
+    <div class="editor"><span class="yellow">attribute
+        </span><span class="pink">(</span> <span class="orange">attribute
+            <span><span class="pink">)</span></span></span></div><span> set an attribute
+    </span><br>
+    <h4>attributes
+        :</h4>
+    <div class="editor"><span class="yellow">attributes
+        </span><span class="pink">(</span> <span class="orange">attribute
+            <span><span class="pink">)</span></span></span></div><span> set an attribute
+    </span><br>
+    <h4>method
+        :</h4>
+    <div class="editor"><span class="yellow">method
+        </span><span class="pink">(</span> <span class="orange">method
+            <span><span class="pink">)</span></span></span></div><span> set an attribute
+    </span><br>
+    <h4>method
+        :</h4>
+    <div class="editor"><span class="yellow">method
+        </span><span class="pink">(</span> <span class="orange">method
+            <span><span class="pink">)</span></span></span></div><span> set an attribute
+    </span><br>
+    <h1>jsm 1.0/backbone/structures/objects/uml/ellipse.js</h1>
+    <h4>JsmEllipse
+        :</h4><span>1.0
+    </span><br><span>Object
+    </span><br><span>BEBE EPEE Ivan Sampi
+    </span><br><span>implements the class logic of the diagram of the same name in the uml method
+
+    </span><br>
+    <h1>jsm 1.0/backbone/structures/drawer/drawer.js</h1>
+    <h4>Drawer
+        :</h4><span>1.0
+    </span><br><span>this class will allow graphical representation of all data structures (objectss) created
+    </span><br><span>BEBE EPEE Ivan Sampi
+
+    </span><br>
+    <h4>init
+        :</h4><span>initialize all the events that will allow to interact with the canvas
+    </span><br>
+    <h4>identify_element
+        :</h4>
+    <div class="editor"><span class="yellow">identify_element
+        </span><span class="pink">(</span>e <span class="orange">event
+            <span><span class="pink">)</span></span></span></div><span> identifies an element according to the position
+        of the cursor in the canvas and return an
+    </span><br><span>object
+
+    </span><br>
+    <h4>canvas
+        :</h4><span>return the canvas value
+    </span><br><span>object
+    </span><br>
+    <h4>canvas
+        :</h4>
+    <div class="editor"><span class="yellow">canvas
+        </span><span class="pink">(</span>canvas <span class="orange">object
+            <span><span class="pink">)</span></span></span></div><span>set the canvas value
+    </span><br>
+    <h4>ctx
+        :</h4><span>return the canvas context
+    </span><br><span>object
+    </span><br>
+    <h4>context
+        :</h4>
+    <div class="editor"><span class="yellow">context
+        </span><span class="pink">(</span>context <span class="orange">object
+            <span><span class="pink">)</span></span></span></div><span>set the canvas context
+    </span><br>
+    <h4>objects
+        :</h4><span>return the objects
+    </span><br><span>object
+    </span><br>
+    <h4>objects
+        :</h4>
+    <div class="editor"><span class="yellow">objects
+        </span><span class="pink">(</span>objects <span class="orange">object
+            <span><span class="pink">)</span></span></span></div><span>set the objects
+    </span><br>
+    <h4>objects
+        :</h4>
+    <div class="editor"><span class="yellow">objects
+        </span><span class="pink">(</span>objects <span class="orange">object
+            <span><span class="pink">)</span></span></span></div><span>set the objects
+    </span><br>
+    <h4>textWith
+        :</h4>
+    <div class="editor"><span class="yellow">textWith
+        </span><span class="pink">(</span>text <span class="orange">string
+            <span><span class="pink">)</span></span></span></div><span>return the with of a text
+    </span><br><span>int
+    </span><br>
+    <h4>drawAndSave
+        :</h4>
+    <div class="editor"><span class="yellow">drawAndSave
+        </span><span class="pink">(</span>a; <span class="orange">represent<span>, <span class="orange">p<span><span
+                            class="pink">)</span></span></span></span></span></div><span> allows to perform all basic
+        actions on the canvas context
+    </span><br>
+    <h1>jsm 1.0/backbone/structures/drawer/interfaces/funcs.js</h1>
+    <h1>jsm 1.0/backbone/structures/drawer/default/d_object.js</h1>
+    <h4>D_object
+        :</h4><span>1.0
+    </span><br><span>this define the basics features of an drawer object
+    </span><br><span>BEBE EPEE Ivan Sampi
+
+    </span><br>
+    <h1>jsm 1.0/backbone/structures/drawer/components/jd_actor.js</h1>
+    <h4>JdEllipse
+        :</h4><span>Drawer
+    </span><br><span>1.0
+    </span><br><span> draw an uml class using the ginven informations
+    </span><br><span>BEBE EPEE Ivan Sampi
+
+    </span><br>
+    <h1>jsm 1.0/backbone/structures/drawer/components/jd_class.js</h1>
+    <h4>jdClass
+        :</h4><span>Drawer
+    </span><br><span>1.0
+    </span><br><span> draw an uml class using the ginven informations
+    </span><br><span>BEBE EPEE Ivan Sampi
+    </span><br>
+    <h4>attributes
+        :</h4><span>return the attributes of the selectedObject
+    </span><br><span>object
+    </span><br>
+    <h4>methods
+        :</h4><span>return the amethodsttributes of the selectedObject
+    </span><br><span>object
+    </span><br>
+    <h4>defineWidth
+        :</h4><span>define the width of the object to draw using the informations of the selected object
+    </span><br>
+    <h4>mapAndSetWidth
+        :</h4>
+    <div class="editor"><span class="yellow">mapAndSetWidth
+        </span><span class="pink">(</span>string <span class="orange">type<span>,object <span class="orange">tab
+                    <span><span class="pink">)</span></span></span></span></span></div><span>map the given object and
+        define the width
+
+    </span><br>
+    <h4>format
+        :</h4>
+    <div class="editor"><span class="yellow">format
+        </span><span class="pink">(</span>string <span class="orange">type<span>,object <span class="orange">element
+                    <span><span class="pink">)</span></span></span></span></span></div><span>format the name to display
+        into he class form attributes and methods
+    </span><br><span>string
+    </span><br>
+    <h4>visibility
+        :</h4>
+    <div class="editor"><span class="yellow">visibility
+        </span><span class="pink">(</span>string <span class="orange">vis
+            <span><span class="pink">)</span></span></span></div><span> return the visibility using the given key
+    </span><br><span>string
+    </span><br>
+    <h4>params
+        :</h4>
+    <div class="editor"><span class="yellow">params
+        </span><span class="pink">(</span>element
+        <span class="orange"><span><span class="pink">)</span></span></span>
+    </div><span> map the parameter array of an property an format the prototype
+    </span><br><span>string
+    </span><br>
+    <h4>header
+        :</h4>
+    <div class="editor"><span class="yellow">header
+        </span><span class="pink">(</span>object <span class="orange">objectStructure<span>,object <span
+                    class="orange">drawer
+                    <span><span class="pink">)</span></span></span></span></span></div><span>use the classDescription to
+        draw the class header that will content the
+    </span><br>
+    <h1>jsm 1.0/backbone/structures/drawer/components/jd_ellipse.js</h1>
+    <h4>JdEllipse
+        :</h4><span>Drawer
+    </span><br><span>1.0
+    </span><br><span> draw an uml class using the ginven informations
+    </span><br><span>BEBE EPEE Ivan Sampi
+
+    </span><br>
+    <h1>jsm 1.0/backbone/structures/default/link.js</h1>
+    <h4>link
+        :</h4><span>1.0
+    </span><br><span>JsmObject
+    </span><br><span>BEBE EPEE Ivan Sampi
+    </span><br><span>define the basic structure of a link
+    </span><br>
+    <h4>connectedObjects
+        :</h4><span> return all the objects connected by the link
+    </span><br><span>object
+    </span><br>
+    <h4>connectedObjects
+        :</h4>
+    <div class="editor"><span class="yellow">connectedObjects
+        </span><span class="pink">(</span> <span class="orange">objectsToConnectInfo
+            <span><span class="pink">)</span></span></span></div><span> set the objects that are connected by the link
+    </span><br>
+    <h4>getConnectedObject
+        :</h4>
+    <div class="editor"><span class="yellow">getConnectedObject
+        </span><span class="pink">(</span>key
+        <span class="orange"><span><span class="pink">)</span></span></span>
+    </div><span> returns the link object identified by the key passed in
+        parameter or an empty object if no match is found </span><br>
+    <h4>connectedObject
+        :</h4>
+    <div class="editor"><span class="yellow">connectedObject
+        </span><span class="pink">(</span>objetToVonnectInfo
+        <span class="orange"><span><span class="pink">)</span></span></span>
+    </div><span> define the objects connected by the link
+    </span><br>
+    <h4>cardinalities
+        :</h4><span> returns an object containing the connected objects and their cardinalities
+    </span><br><span>object
+    </span><br>
+    <h4>cardinalities
+        :</h4>
+    <div class="editor"><span class="yellow">cardinalities
+        </span><span class="pink">(</span>cardinalities
+        <span class="orange"><span><span class="pink">)</span></span></span>
+    </div><span> defines the cardinalities of the objects connected by the link
+    </span><br><span>object
+    </span><br>
+    <h4>getCardinality
+        :</h4><span> returns the cardinalty of the asked object of the link
+    </span><br><span>object
+    </span><br>
+    <h4>cardinality
+        :</h4>
+    <div class="editor"><span class="yellow">cardinality
+        </span><span class="pink">(</span>cardinality
+        <span class="orange"><span><span class="pink">)</span></span></span>
+    </div><span> set the cardinality of the object correspond with the given key
+    </span><br>
+    <h1>jsm 1.0/backbone/structures/default/model.js</h1>
+    <h4>link
+        :</h4><span>1.0
+    </span><br><span>AfterBase
+    </span><br><span>BEBE EPEE Ivan Sampi
+    </span><br><span>define the basic elements of a link
+    </span><br>
+    <h4>constructor
+        :</h4>
+    <div class="editor"><span class="yellow">constructor
+        </span><span class="pink">(</span>model <span class="orange">object
+            <span><span class="pink">)</span></span></span></div><span>use the given object to fill the properties of
+        the model
+    </span><br>
+    <h4>objects
+        :</h4><span>return the list of the model objects
+    </span><br><span>object
+    </span><br>
+    <h4>objects
+        :</h4>
+    <div class="editor"><span class="yellow">objects
+        </span><span class="pink">(</span>objects <span class="orange">object
+            <span><span class="pink">)</span></span></span></div><span>add the model with the given objects
+    </span><br>
+    <h4>object
+        :</h4>
+    <div class="editor"><span class="yellow">object
+        </span><span class="pink">(</span>object
+        <span class="orange"><span><span class="pink">)</span></span></span>
+    </div><span>add the givent object to the model objects list
+    </span><br>
+    <h4>selectedObjectIndex
+        :</h4><span>return the selected object index
+    </span><br><span>int
+    </span><br>
+    <h4>selectedObject
+        :</h4><span>return the selected object
+    </span><br><span>object
+    </span><br>
+    <h4>addObject
+        :</h4>
+    <div class="editor"><span class="yellow">addObject
+        </span><span class="pink">(</span>object <span class="orange">object
+            <span><span class="pink">)</span></span></span></div><span>allow to add object from the model
+    </span><br>
+    <h1>jsm 1.0/backbone/structures/default/object.js</h1>
+    <h4>jsmObject
+        :</h4><span>Base
+    </span><br><span>BEBE EPEE Ivan Sampi
+    </span><br><span> the define a structure of an jsmobject
+    </span><br><span>1.0
+
+    </span><br>
+    <h4>properties
+        :</h4><span>set all the object properties
+    </span><br>
+    <h4>property
+        :</h4><span> define a new property from the #properties object
+    </span><br>
+    <h4>addProperty
+        :</h4>
+    <h4>setProperty
+        :</h4>
+    <div class="editor"><span class="yellow">setProperty
+        </span><span class="pink">(</span>propertiesList,propertyObject
+        <span class="orange"><span><span class="pink">)</span></span></span>
+    </div><span>add a new property Object to the given property </span><br>
+    <h4>getProperty
+        :</h4>
+    <div class="editor"><span class="yellow">getProperty
+        </span><span class="pink">(</span>propertyName
+        <span class="orange"><span><span class="pink">)</span></span></span>
+    </div><span>return a property using the given name if it exist and an empty object else
+    </span><br><span>object
+    </span><br>
+    <h4>hasProperty
+        :</h4>
+    <div class="editor"><span class="yellow">hasProperty
+        </span><span class="pink">(</span>propertyName
+        <span class="orange"><span><span class="pink">)</span></span></span>
+    </div><span>check if a property exist
+    </span><br><span>bool
+    </span><br>
+    <h1>jsm 1.0/backbone/structures/default/project.js</h1>
+    <h4>Project
+        :</h4><span>1.0
+    </span><br><span>AfterBase
+    </span><br><span>BEBE EPEE Ivan Sampi
+    </span><br><span>define the structure of project
+
+    </span><br>
+    <h4>construct
+        :</h4><span> use the informations of the given project object to build a project
+    </span><br>
+    <h4>model
+        :</h4><span>getter that return the list off models
+    </span><br><span> object
+    </span><br>
+    <h4>models
+        :</h4>
+    <div class="editor"><span class="yellow">models
+        </span><span class="pink">(</span>models <span class="orange">object
+            <span><span class="pink">)</span></span></span></div><span>allow to set models
+    </span><br>
+    <h4>model
+        :</h4>
+    <div class="editor"><span class="yellow">model
+        </span><span class="pink">(</span>model <span class="orange">object
+            <span><span class="pink">)</span></span></span></div><span>allow to set model
+    </span><br>
+    <h4>selectedModelIndex
+        :</h4><span> return an index from an existing model
+    </span><br><span>int
+    </span><br>
+    <h4>selectedModel
+        :</h4><span>return the selected model
+    </span><br><span>object
+    </span><br>
+    <h4>selectedModel
+        :</h4><span>allow to set the selected model index
+
+    </span><br>
+    <h4>addModel
+        :</h4><span>allow to create a new model and set it as the selected model
+    </span><br>
+    <h1>jsm 1.0/backbone/structures/default/property.js</h1>
+    <h4>Property
+        :</h4><span>1.0
+    </span><br><span>Base
+    </span><br><span>BEBE EPEE Ivan Sampi
+    </span><br><span>define the structure of property
+
+    </span><br>
+    <h4>value
+        :</h4><span>return the value of the property
+    </span><br><span>string</span><br>
+    <h4>value
+        :</h4>
+    <div class="editor"><span class="yellow">value
+        </span><span class="pink">(</span>value <span class="orange">any
+            <span><span class="pink">)</span></span></span></div><span>allow to define the value of the property
+    </span><br>
+    <h4>visibility :</h4><span>return the visibility of the property
+    </span><br><span> string
+    </span><br>
+    <h4>visibility
+        :</h4>
+    <div class="editor"><span class="yellow">visibility
+        </span><span class="pink">(</span>visibility <span class="orange">string
+            <span><span class="pink">)</span></span></span></div><span>allow to set the visibility of the property
+
+    </span><br>
+    <h4>params
+        :</h4><span> return the parameters of the property
+    </span><br><span>array
+    </span><br>
+    <h4>params
+        :</h4>
+    <div class="editor"><span class="yellow">params
+        </span><span class="pink">(</span>params <span class="orange">any
+            <span><span class="pink">)</span></span></span></div><span>allow to add a parameter to a property
+    </span><br>
+    <h1>jsm 1.0/backbone/structures/default/_afterbase.js</h1>
+    <h4>AfterBase
+        :</h4><span>Base
+    </span><br><span>1.0
+    </span><br><span>This class defines the structure of the folders located after the base
+        of the system. These are components that will store other elements and in which it will be possible to navigate.
+    </span><br><span>BEBE EPEE Ivan Sampi
+
+    </span><br>
+    <h4>elements
+        :</h4><span>return the list of the elements
+    </span><br><span>object
+    </span><br>
+    <h4>elements
+        :</h4><span>elements
+    </span><br><span>set the list of the elements
+    </span><br>
+    <h4>element
+        :</h4><span>element
+    </span><br><span> add an element to the element list
+    </span><br>
+    <h4>getElement
+        :</h4><span>index
+    </span><br><span>returns the element corresponding to the index
+        passed in the array of elements or an empty array if no match is found
+    </span><br><span>object
+    </span><br>
+    <h4>selectedElementIndex
+        :</h4><span>returns the index of the selecte element
+        passed in the array of elements or an empty array if no match is found
+    </span><br><span>interger
+    </span><br>
+    <h4>selectedElement
+        :</h4><span>returns the element corresponding to the index of the selected element
+        in the array of elements or an empty array if no match is found
+    </span><br><span>object
+    </span><br>
+    <h4>selectedElement
+        :</h4><span>index
+    </span><br><span> define the selected element </span><br>
+    <h4>addElement
+        :</h4><span>element
+    </span><br><span> add the given element to the element list</span><br>
+    <h1>jsm 1.0/backbone/structures/default/workspace.js</h1>
+    <h4>Workspace
+        :</h4><span>1.0
+    </span><br><span>AfterBase
+    </span><br><span>BEBE EPEE Ivan Sampi
+    </span><br><span>define the structure of a workspace
+
+    </span><br>
+    <h4>constructor
+        :</h4><span>user the given workspace object to create a wokspace
+    </span><br>
+    <h4>projects
+        :</h4><span>return all the projects ogf a workspace
+    </span><br><span>object
+    </span><br>
+    <h4>projects
+        :</h4>
+    <div class="editor"><span class="yellow">projects
+        </span><span class="pink">(</span>projects <span class="orange">object
+            <span><span class="pink">)</span></span></span></div><span>allow to replace the projects of the workspace
+        with the contain of the object
+    </span><br>
+    <h4>project
+        :</h4>
+    <div class="editor"><span class="yellow">project
+        </span><span class="pink">(</span>project
+        <span class="orange"><span><span class="pink">)</span></span></span>
+    </div><span>replace a project by the project given
+    </span><br>
+    <h4>selectedProjectIndex
+        :</h4><span>return the selected project index
+    </span><br><span>int
+    </span><br>
+    <h4>selectedProject
+        :</h4><span>return the selected project object
+    </span><br><span>object
+    </span><br>
+    <h4>selectedProject
+        :</h4>
+    <div class="editor"><span class="yellow">selectedProject
+        </span><span class="pink">(</span>index <span class="orange">int
+            <span><span class="pink">)</span></span></span></div><span>allow to set the selected project index
+    </span><br>
+    <h4>addProject
+        :</h4>
+    <div class="editor"><span class="yellow">addProject
+        </span><span class="pink">(</span>project <span class="orange">object
+            <span><span class="pink">)</span></span></span></div><span>allow to add a new project to the workspace
+    </span><br>
+    <h1>jsm 1.0/backbone/structures/default/_base.js</h1>
+    <h4>Base
+        :</h4><span>1.0
+    </span><br><span>is an abstact class that define the basic behaviour of an jsm element
+
+    </span><br>
+    <h4>constructor
+        :</h4>
+    <div class="editor"><span class="yellow">constructor
+        </span><span class="pink">(</span>base <span class="orange">object
+            <span><span class="pink">)</span></span></span></div><span>user the base object informations to set the base
+        properties values
+    </span><br>
+    <h4>name
+        :</h4><span>return the name of the element
+    </span><br><span>String
+    </span><br>
+    <h4>name
+        :</h4><span>set the name of the element
+    </span><br>
+    <h4>type
+        :</h4><span>return the type of the element
+    </span><br><span>string
+    </span><br>
+    <h4>type
+        :</h4>
+    <div class="editor"><span class="yellow">type
+        </span><span class="pink">(</span>type <span class="orange">string
+            <span><span class="pink">)</span></span></span></div><span>define the type of the element
+    </span><br>
+    <h1>jsm 1.0/backbone/language/en.js</h1>
+    <h1>jsm 1.0/backbone/language/fr.js</h1>
+    <h1>jsm 1.0/backbone/helpers/helper.js</h1>
+    <h4>helper
+        :</h4><span>BEBE EPEE IVAN SAMPI
+    </span><br><span> 1.0
+    </span><br><span>contains a formalization of some usual mechanisms that will be used a lot in the library
+    </span><br>
+    <h4>hasOwnProperty
+        :</h4>
+    <div class="editor"><span class="yellow">hasOwnProperty
+        </span><span class="pink">(</span>object <span class="orange">Object<span>,property <span
+                    class="orange">String<span><span class="pink">)</span></span></span></span></span></div><span> check
+        if the given object has property
+    </span><br><span>boolean
+    </span><br>
+    <h4>hasOwnProperties
+        :</h4>
+    <div class="editor"><span class="yellow">hasOwnProperties
+        </span><span class="pink">(</span>object <span class="orange">Object<span>,properties <span class="orange">Array
+                    <span><span class="pink">)</span></span></span></span></span></div><span> check if the given object
+        has properties available in the array
+    </span><br><span>boolean
+    </span><br>
+    <h4>hasIndex
+        :</h4><span> check if the given array has an index
+    </span><br><span>boolean
+    </span><br>
+    <h4>isArray
+        :</h4><span> check if the given element is an array
+    </span><br>
+    <h4>isNull
+        :</h4><span> check if the given element is null
+    </span><br><span>boolean
+    </span><br>
+    <h4>isEmpty
+        :</h4><span> check if the given element is empty
+    </span><br><span>boolean
+    </span><br>
+    <h4>isInt
+        :</h4><span> check if the given element is an integer
+    </span><br><span>boolean
+    </span><br>
+    <h4>isString
+        :</h4><span> check if the given element is a string
+    </span><br><span>boolean
+    </span><br>
+    <h4>isObject
+        :</h4><span> check if the given element is an object
+    </span><br><span>boolean
+    </span><br>
+    <h4>spaceWords
+        :</h4>
+    <div class="editor"><span class="yellow">spaceWords
+        </span><span class="pink">(</span>wordArray <span class="orange">Array<span>, <span
+                    class="orange">numberOfSpaces<span><span class="pink">)</span></span></span></span></span></div>
+    <span>returns a concatenation of the strings in your array separated by the number of spaces you specified
+    </span><br>
+    <h4>spaces
+        :</h4>
+    <div class="editor"><span class="yellow">spaces
+        </span><span class="pink">(</span>numberOfSpaces <span class="orange">int
+            <span><span class="pink">)</span></span></span></div><span>return a string that contains the number of
+        spaces caracters asked
+    </span><br><span>string
+    </span><br>
+    <h1>jsm 1.0/backbone/config/config.js</h1>
+    <h4>Config
+        :</h4><span>define the environment configuration
+
+    </span><br>
+</div>
